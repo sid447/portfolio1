@@ -40,7 +40,7 @@ public WebDriver InitializeDriver() throws IOException
 	
 	else if (browserName.equals("ie"))
 	{
-		 System.setProperty("webdriver.ie.driver", "");
+		 System.setProperty("webdriver.ie.driver", "tests");
 		     driver=new ChromeDriver();
 	}
 	
