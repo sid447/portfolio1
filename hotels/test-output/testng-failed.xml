@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Validating login with invalid data(failed)" parallel="tests">
+    <classes>
+      <class name="E2Etesting.expedia.LoginPage">
+        <methods>
+          <include name="testLogin"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2Etesting.expedia.LoginPage -->
+    </classes>
+  </test> <!-- Validating login with invalid data(failed) -->
+  <test thread-count="5" name="Validating homepage(failed)" parallel="tests">
+    <classes>
+      <class name="E2Etesting.expedia.homePage">
+        <methods>
+          <include name="homePageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2Etesting.expedia.homePage -->
+    </classes>
+  </test> <!-- Validating homepage(failed) -->
+  <test thread-count="5" name="Validatig Create Account Page(failed)" parallel="tests">
+    <classes>
+      <class name="E2Etesting.expedia.CreateAccPage">
+        <methods>
+          <include name="initialize"/>
+          <include name="createAccPageNav"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- E2Etesting.expedia.CreateAccPage -->
+    </classes>
+  </test> <!-- Validatig Create Account Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

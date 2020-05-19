@@ -1,0 +1,6 @@
+19:08:38.916 [main] INFO  resources.Base - driver initialized successfully
+19:08:49.682 [main] INFO  resources.Base - Login with incorrect username and password is validated
+19:47:22.153 [main] INFO  resources.Base - driver initialized successfully
+19:47:30.576 [main] INFO  resources.Base - Login with incorrect username and password is validated
+19:51:20.941 [TestNG-tests-1] INFO  resources.Base - driver initialized successfully
+19:51:29.166 [TestNG-tests-1] INFO  resources.Base - Login with incorrect username and password is validated

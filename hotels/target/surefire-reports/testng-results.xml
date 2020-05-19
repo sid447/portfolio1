@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17037" started-at="2020-05-19T00:08:34Z" finished-at="2020-05-19T00:08:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17037" started-at="2020-05-19T00:08:34Z" finished-at="2020-05-19T00:08:51Z">
+      <class name="E2Etesting.expedia.LoginPage">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:E2Etesting.expedia.LoginPage@4c309d4d]" name="testLogin" duration-ms="5809" started-at="2020-05-19T00:08:43Z" finished-at="2020-05-19T00:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- E2Etesting.expedia.LoginPage -->
+      <class name="E2Etesting.expedia.homePage">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:E2Etesting.expedia.homePage@38102d01]" name="homePageNavigation" duration-ms="368" started-at="2020-05-19T00:08:49Z" finished-at="2020-05-19T00:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+      </class> <!-- E2Etesting.expedia.homePage -->
+      <class name="E2Etesting.expedia.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:E2Etesting.expedia.AppTest@6ab778a]" name="shouldAnswerWithTrue" duration-ms="0" started-at="2020-05-19T00:08:49Z" finished-at="2020-05-19T00:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- E2Etesting.expedia.AppTest -->
+      <class name="E2Etesting.expedia.CreateAccPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2Etesting.expedia.CreateAccPage@37883b97]" name="initialize" is-config="true" duration-ms="3215" started-at="2020-05-19T00:08:34Z" finished-at="2020-05-19T00:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2Etesting.expedia.LoginPage@4c309d4d]" name="initialize" is-config="true" duration-ms="3332" started-at="2020-05-19T00:08:37Z" finished-at="2020-05-19T00:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2Etesting.expedia.homePage@38102d01]" name="initialize" is-config="true" duration-ms="2822" started-at="2020-05-19T00:08:41Z" finished-at="2020-05-19T00:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="createAccPageNav()[pri:0, instance:E2Etesting.expedia.CreateAccPage@37883b97]" name="createAccPageNav" duration-ms="1076" started-at="2020-05-19T00:08:50Z" finished-at="2020-05-19T00:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccPageNav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2Etesting.expedia.CreateAccPage@37883b97]" name="teardown" is-config="true" duration-ms="125" started-at="2020-05-19T00:08:51Z" finished-at="2020-05-19T00:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2Etesting.expedia.LoginPage@4c309d4d]" name="teardown" is-config="true" duration-ms="160" started-at="2020-05-19T00:08:51Z" finished-at="2020-05-19T00:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2Etesting.expedia.homePage@38102d01]" name="teardown" is-config="true" duration-ms="117" started-at="2020-05-19T00:08:51Z" finished-at="2020-05-19T00:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2Etesting.expedia.CreateAccPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

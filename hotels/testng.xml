@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listners>
+<listner class-name="E2Etesting.expedia.Listners"/>
+</listners>
+
+  <test thread-count="5" name="Validating login with invalid data">
+    <classes>
+      <class name="E2Etesting.expedia.LoginPage"/>
+      </classes>
+      </test>
+      
+      <test name="test">
+      <classes>
+      <class name="E2Etesting.expedia.AppTest"/>
+      </classes>
+      </test>
+      
+      <test name="Validating homepage">
+      <classes>
+      <class name="E2Etesting.expedia.homePage"/>
+      </classes>
+      </test>
+      
+      <test name="Validatig Create Account Page">
+      <classes>
+      <class name="E2Etesting.expedia.CreateAccPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
